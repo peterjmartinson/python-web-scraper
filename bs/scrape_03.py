@@ -21,4 +21,9 @@ for link in soup.find_all('a'):
 
 print("\n")
 
+print("  - Extract all the text:")
+print(soup.get_text())
+
+print("\n")
+
 print(soup.prettify())
